@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<component name="org.nuxeo.sample.listener.notecreationlistener">
+
+  <extension target="org.nuxeo.ecm.core.event.EventServiceComponent" point="listener">
+    <listener name="notecreationlistener"
+      class="org.nuxeo.sample.NoteCreationListener">
+        <event>aboutToCreate</event>
+    </listener>
+  </extension>
+
+</component>
