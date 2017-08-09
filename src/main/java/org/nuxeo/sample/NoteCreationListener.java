@@ -22,6 +22,6 @@ public class NoteCreationListener implements EventListener {
         DocumentModel doc = docCtx.getSourceDocument();
 
         // Add some logic starting from here.
-        doc.setPropertyValue("dc:description","Happily deployed thru s2i.")
+        doc.setPropertyValue("dc:description","Happily deployed thru s2i.");
     }
 }
